@@ -1,7 +1,9 @@
 LevelsChoice
 ============
 
-this look like dazhongdianping search type select.  stable and flexible
+it looks like dazhongdianping's search type bar. it is stable and flexible.
+
+it implement with fragment.you can add any complex view in it. enjoy it 
 
 screen shot
 
