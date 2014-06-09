@@ -46,10 +46,9 @@ public class DemoActivity extends Activity {
     @Override
     public void onBackPressed() {
         Fragment fg = getFragmentManager().findFragmentByTag("choiceSubject");
-        if(fg != null){
-            if(!((SelectFragment)fg).onBackPressed()){
-                super.onBackPressed();
-            }
+        if(fg != null && ((SelectFragment)fg).onBackPressed()){
+            return;
         }
+        super.onBackPressed();
     }
 }
