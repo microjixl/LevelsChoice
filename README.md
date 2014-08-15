@@ -1,4 +1,4 @@
-<center>'''LevelsChoice'''</center>
+LevelsChoice
 ============
 
 it looks like dazhongdianping's search type bar. it is stable and flexible.
